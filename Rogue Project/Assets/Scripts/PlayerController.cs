@@ -4,17 +4,32 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-    public float speed = 5f;
+    public float Speed = 5f;
     public Rigidbody2D rb;
-	// Use this for initialization
-	void Start () {
+    public Animator animator;
+    public float RunningSpeed;
+    private Vector3 movement;
+    // Use this for initialization
+    void Start () {
         
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-        Vector3.ClampMagnitude(movement, 1);
-        rb.velocity = movement * speed * Time.deltaTime;
+        movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        RunningSpeed = Mathf.Clamp(movement.magnitude, 0, 1);
+        movement.Normalize();
+        rb.velocity = movement * Speed * RunningSpeed * Time.deltaTime;
+        Animate();
 	}
+
+    void Animate()
+    {
+        if (movement != Vector3.zero)
+        {
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+        }
+        animator.SetFloat("Speed", RunningSpeed);
+    }
 }
