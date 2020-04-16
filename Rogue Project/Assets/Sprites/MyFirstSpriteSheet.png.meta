@@ -1,23 +1,18 @@
 fileFormatVersion: 2
-guid: 89fb75e49de8c094486f36e1bccd646e
+guid: 456fdae86be13304e87b498f93395264
+timeCreated: 1587053242
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hotpng.com_0
-    21300002: hotpng.com_1
-    21300004: hotpng.com_2
-    21300006: hotpng.com_3
-    21300008: hotpng.com_4
-    21300010: hotpng.com_5
-    21300012: hotpng.com_6
-    21300014: hotpng.com_7
-    21300016: hotpng.com_8
-    21300018: hotpng.com_9
-    21300020: hotpng.com_10
-    21300022: hotpng.com_11
-    21300024: hotpng.com_12
-    21300026: hotpng.com_13
-    21300028: hotpng.com_14
-    21300030: hotpng.com_15
+    21300000: MyFirstSpriteSheet_4
+    21300002: MyFirstSpriteSheet_5
+    21300004: MyFirstSpriteSheet_6
+    21300006: MyFirstSpriteSheet_7
+    21300008: MyFirstSpriteSheet_9
+    21300010: MyFirstSpriteSheet_10
+    21300012: MyFirstSpriteSheet_11
+    21300014: MyFirstSpriteSheet_12
+    21300016: MyFirstSpriteSheet_13
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -47,7 +42,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -92,13 +87,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hotpng.com_0
+      name: MyFirstSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyFirstSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyFirstSpriteSheet_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 696
-        width: 242
-        height: 232
+        y: 96
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,13 +129,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hotpng.com_1
+      name: MyFirstSpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 242
-        y: 696
-        width: 242
-        height: 232
+        x: 16
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,13 +143,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hotpng.com_2
+      name: MyFirstSpriteSheet_9
       rect:
         serializedVersion: 2
-        x: 484
-        y: 696
-        width: 242
-        height: 232
+        x: 48
+        y: 96
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,13 +157,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hotpng.com_3
+      name: MyFirstSpriteSheet_10
       rect:
         serializedVersion: 2
-        x: 726
-        y: 696
-        width: 242
-        height: 232
+        x: 64
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,13 +171,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hotpng.com_4
+      name: MyFirstSpriteSheet_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 464
-        width: 242
-        height: 232
+        x: 80
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,13 +185,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hotpng.com_5
+      name: MyFirstSpriteSheet_12
       rect:
         serializedVersion: 2
-        x: 242
-        y: 464
-        width: 242
-        height: 232
+        x: 96
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,139 +199,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hotpng.com_6
+      name: MyFirstSpriteSheet_13
       rect:
         serializedVersion: 2
-        x: 484
-        y: 464
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_7
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 464
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 232
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_9
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 232
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_10
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 232
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_11
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 232
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_13
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 0
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_14
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 0
-        width: 242
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: hotpng.com_15
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 0
-        width: 242
-        height: 232
+        x: 112
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
