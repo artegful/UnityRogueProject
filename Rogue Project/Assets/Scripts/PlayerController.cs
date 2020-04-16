@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
     public Animator animator;
     public float RunningSpeed;
     private Vector3 movement;
+    private bool jumpIsDone = false;
     // Use this for initialization
     void Start () {
         
