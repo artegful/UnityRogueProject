@@ -1,23 +1,18 @@
 fileFormatVersion: 2
-guid: 90e35ac7f242a7242962cf719aa1f4ad
-timeCreated: 1587119471
+guid: d1fab3305deb2f5489ccec3ea613a5a3
+timeCreated: 1587136012
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: MyFirstSpriteSheet 1_0
-    21300002: MyFirstSpriteSheet 1_1
-    21300004: MyFirstSpriteSheet 1_2
-    21300006: MyFirstSpriteSheet 1_3
-    21300008: MyFirstSpriteSheet 1_4
-    21300010: MyFirstSpriteSheet 1_5
-    21300012: MyFirstSpriteSheet 1_6
-    21300014: MyFirstSpriteSheet 1_7
-    21300016: MyFirstSpriteSheet 1_8
-    21300018: MyFirstSpriteSheet 1_9
-    21300020: MyFirstSpriteSheet 1_10
-    21300022: MyFirstSpriteSheet 1_11
-    21300024: MyFirstSpriteSheet 1_12
-    21300026: MyFirstSpriteSheet 1_13
+    21300000: first_0
+    21300002: first_1
+    21300004: first_2
+    21300006: first_3
+    21300008: first_4
+    21300010: first_5
+    21300012: first_6
+    21300014: first_7
+    21300016: first_8
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -92,13 +87,69 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_0
+      name: first_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
+        y: 96
+        width: 10
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 96
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 96
+        width: 6
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 96
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_4
+      rect:
+        serializedVersion: 2
+        x: 87
         y: 112
-        width: 16
-        height: 16
+        width: 3
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,13 +157,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_1
+      name: first_5
       rect:
         serializedVersion: 2
-        x: 16
+        x: 100
         y: 112
-        width: 16
-        height: 16
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,13 +171,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_2
+      name: first_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 16
+        x: 100
+        y: 96
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,13 +185,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_3
+      name: first_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 16
+        x: 84
+        y: 96
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,139 +199,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_4
+      name: first_8
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_5
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_6
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 90
         y: 96
-        width: 16
-        height: 32
-      alignment: 9
-      pivot: {x: 0.51606864, y: 0.25897312}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_8
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.50803435, y: 0.19469929}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_9
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.49999976, y: 0.6446161}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.37145233}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_11
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_12
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MyFirstSpriteSheet 1_13
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 96
-        width: 16
-        height: 16
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
