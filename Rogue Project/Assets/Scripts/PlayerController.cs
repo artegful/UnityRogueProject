@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour {
     public Animator animator;
     public float RunningSpeed;
     private Vector3 movement;
-    private bool jumpIsDone = false;
+    public GameObject crosshair;
     // Use this for initialization
     void Start () {
         
@@ -17,12 +17,17 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-        RunningSpeed = Mathf.Clamp(movement.magnitude, 0, 1);
-        movement.Normalize();
+        ProcessInputs();
         rb.velocity = movement * Speed * RunningSpeed * Time.deltaTime;
         Animate();
 	}
+
+    void ProcessInputs()
+    {
+        movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        RunningSpeed = Mathf.Clamp(movement.magnitude, 0, 1);
+        movement.Normalize();
+    }
 
     void Animate()
     {
